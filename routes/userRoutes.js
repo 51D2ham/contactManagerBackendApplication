@@ -9,6 +9,6 @@ router.post("/login",loginUser);
 
 router.post("/change-password",authMiddleware,changePassword);
 
-// router.get("/current",currentUser);
+
 
 module.exports = router
